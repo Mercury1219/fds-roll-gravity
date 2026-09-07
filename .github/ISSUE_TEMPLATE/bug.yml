@@ -1,0 +1,23 @@
+name: Bug report
+description: 报告计算或界面问题
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 版本与环境
+      description: 应用版本、Python 版本、操作系统
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤和参数
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 实际结果、期望结果与验收标准
+    validations:
+      required: true
